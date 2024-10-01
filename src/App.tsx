@@ -14,8 +14,8 @@ function App() {
   const [comics, setComics] = useState<IComic[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const publicKey = '60bd2f300130e2e67d9be0c3ff7565d7';
-  const privateKey = 'fc5d35dc3bdcd1ad3d4e5a8e8d163e81a74bf01e';
+  const publicKey = '';
+  const privateKey = '';
 
   useEffect(() => {
     const fetchData = async () => {
